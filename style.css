@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.navigation-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.right-nav{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.right-nav div a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.67;
+    font-weight: 600;
+    font-size: 15px;
+}
+.left-nav{
+    color: black;
+    opacity: 0.67;
+    font-weight: 600;
+    font-size: 15px;
+}
+.line{
+    width: 100%;
+    height: 1.3px;
+    background-color: darkgray;
+    opacity: 0.65;
+}
+.top-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: linear-gradient(90.8deg,rgb(30,144,231) 27.1%, rgb(67,101,255) 77.8%);
+}
+.top-content-para{
+    text-align: center;
+    padding-left: 22rem;
+    padding-right: 22rem;
+}
+.top-content-btn{
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: grey;
+    font-weight: 500;
+    font-size: 15px;
+}
+.class-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7rem;
+    background-color: aliceblue;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.card{
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+}
+.card-imageOne{
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    background-color: black;
+    opacity: 0.75;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-btn{
+    padding: 0.25rem 0.4rem;
+    align-self: flex-start;
+    background-color: white;
+    border: 1px solid lightskyblue;
+    color: lightskyblue;
+    border-radius: 3px;
+    margin-left: 1rem;
+}
+.cardHeading{
+    margin-left: 1rem;
+}
+.card-para{
+    margin-left: 1rem;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem 4rem;
+}
+.back{
+    text-decoration: none;
+    color: darkblue;
+}
+.copywrt{
+    opacity: 0.67;
+    font-weight: 400;
+    font-size: 15px; 
+}
